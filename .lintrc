@@ -1,5 +1,5 @@
 [tools]
 linters = flake8
 
-[flake8]
+[tool_flake8]
 ignore = T001
