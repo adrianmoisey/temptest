@@ -24,8 +24,6 @@ print "thing"
 print "thing"
 print "thing"
 print "thing"
-import this
-import sys
 print "thing"
 print "thing"
 print "thing"
