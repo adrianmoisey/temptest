@@ -1,6 +1,3 @@
 extends: default
 
-rules:
-  trailing-spaces:
-    ignore: |
-      .github/*.yaml
+ignore: ".github/workflows/python-publish.yml"
