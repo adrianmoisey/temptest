@@ -19,4 +19,4 @@ jobs:
         pip install yamllint
     - name: Lint with flake8
       run: |
-        yamllint .
+        yamllint --no-warnings .
