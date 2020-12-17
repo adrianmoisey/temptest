@@ -1,0 +1,3 @@
+extends: default
+
+ignore: ".github/workflows/python-publish.yml"
