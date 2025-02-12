@@ -6,7 +6,7 @@ This document is auto-generated from the flag definitions in the VPA admission-c
 Last updated: 2025-02-12 13:53:36 UTC
 
 | Flag | Default | Description |
-|------|---------|-------------|
+|--------------------------|---------|-------------|
 | `--add-dir-header` |  |                         If true, adds the file directory to the header of the log messages |
 | `--address` | ":8944" |                         The address to expose Prometheus metrics. |
 | `--alsologtostderr` |  |                        log to standard error as well as files (no effect when -logtostderr=true) |
