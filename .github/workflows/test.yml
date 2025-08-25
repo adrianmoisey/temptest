@@ -13,3 +13,7 @@ jobs:
     steps:
     - name: Print date
       run: date
+
+    - name: Print mount
+      run: mount
+
