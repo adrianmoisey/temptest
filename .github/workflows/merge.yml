@@ -21,12 +21,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Install the `gh` CLI on the runner, although it's often pre-installed.
-      - name: Set up GH CLI
-        uses: actions/setup-gh-cli@v2
-
       # Fetch and merge PRs using the `gh` CLI and `jq` for JSON parsing.
       # The GITHUB_TOKEN is automatically available to `gh` for authentication.
+      # The `gh` CLI is pre-installed on GitHub-hosted runners.
       - name: Fetch and merge PRs
         run: |
           # The `gh pr list` command with `--json` outputs a JSON array.
@@ -39,3 +36,4 @@ jobs:
             # doesn't fail on a single un-mergeable PR.
             gh pr merge "${pr_number}" --merge --delete-branch || true
           done
+
