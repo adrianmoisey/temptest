@@ -1,4 +1,4 @@
-ame: Merge PR Cron (GH CLI)
+name: Merge PR Cron (GH CLI)
 
 # Set the schedule to run at a specific time.
 # This example runs every day at 12:00 UTC.
