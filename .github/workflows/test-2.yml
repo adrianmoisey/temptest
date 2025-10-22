@@ -1,0 +1,19 @@
+name: Print date
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print date
+      run: date
+
+    - name: Print mount
+      run: mount
+
